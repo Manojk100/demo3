@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>company layout</title>
+<style>
+.a { width: 50px; height: 50px; border: 1px solid #000; float: left; }
+</style>xcv
+
+<script src="jquery.js"></script>
+
+<script>
+$(document).ready(function(){
+	
+	$('.a').click(function(){
+
+		$(this).css('height', '100px');
+
+		$(this).siblings().css('height', '50px');		
+
+	});	
+
+});
+
+</script>
+
+
+
+</head>
+<body>
+
+<div class="a">
+A
+</div>
+
+<div class="a">
+B
+</div>
+
+<div class="a">
+C
+</div>
+
+<div class="a">
+D
+</div>
+
+<div class="a">
+E
+</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
